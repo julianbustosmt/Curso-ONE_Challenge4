@@ -8,3 +8,29 @@
 
 /*********************Mobile***************************/
 
+
+/*<----------------Banner---------------->*/
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: end ;
+    background-image: url(.././img/img-banner.png);
+    background-position: center;
+    background-size: cover;
+    color: var(--primary);
+    height: 192px;
+    padding: 1rem;
+    gap: 0.5rem;
+}
+
+.banner h2{
+    margin: 0;
+    font-weight: 700;
+}
+
+.banner p{
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+/*<-------------------------------------->*/

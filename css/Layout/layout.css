@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Raleway', sans-serif;
-    background-color: var(--bg-primary);
+    background-color: var(--primary);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@ body{
 main{
     display: flex;
     flex-direction: column;
-    gap: 3rem
+    gap: 1rem
 }
 
 .hidden{
