@@ -1,15 +1,9 @@
 
 :root{
-
-    --bg-primary: #F5F3F4;
-    --bg-secundary: #A4161A;
-    --primary: #0B090A;
-    --secundary: #FFFFFF;
-    --text-primary: #FFFFFF;
-    --text-secundary: #495057;
-    --text-warning: #BA181B;
-    --bg-modal: #343A40bd;
-
+    --primary: #FFFFFF;
+    --secundary: #2A7AE4;
+    --text-primary: #464646;
+    --text-secundary: #2A7AE4;
 }
 
 /*********************Mobile***************************/

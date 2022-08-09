@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
 body{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: var(--bg-primary);
     min-height: 100vh;
     display: flex;
@@ -20,6 +22,13 @@ main{
 
 .logo{
     margin: 1rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 1rem;
 }
 
 /*<-------------------------------------->*/

@@ -1,0 +1,8 @@
+.btn {
+    border: 1px solid var(--secundary);
+    background-color: var(--primary);
+    color: var(--text-secundary);
+    font-weight: 600;
+    width: 8.3rem;
+    height: 40px;
+}
