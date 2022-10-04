@@ -1,0 +1,19 @@
+{
+  "name": "curso-one_challenge4",
+  "version": "1.0.0",
+  "description": "Reto 3 programa ONE ,E-commerce AluraGeek",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianbustosmt/Curso-ONE_Challenge4.git"
+  },
+  "author": "Julian Bustos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianbustosmt/Curso-ONE_Challenge4/issues"
+  },
+  "homepage": "https://github.com/julianbustosmt/Curso-ONE_Challenge4#readme"
+}

@@ -5,8 +5,9 @@
     --secundary: #2A7AE4;
     --text-primary: #464646;
     --text-secundary: #2A7AE4;
+    --text-form: #A2A2A2;
     --bg-primary: #EAF2FD;
-    --bg-secundary: #F5F5F5;
+    --bg-secundary: #E5E5E5;
 }
 
 /*********************Mobile***************************/
@@ -22,7 +23,6 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    gap: 1rem
 }
 
 .hidden {

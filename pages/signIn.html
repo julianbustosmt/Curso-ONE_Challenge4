@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/logos/logo-desk.svg">
+    <link rel="stylesheet" href="../css/Layout/normalize.css">
+    <link rel="stylesheet" href="../css/Layout/layout.css">
+    <link rel="stylesheet" href="../css/Modules/buttons.css">
+    <link rel="stylesheet" href="../css/Modules/product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="../css/Layout/form.css">
+    <title>AluraGeek</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="../img/logos/logo-mobile.svg" alt="Logo-AluraGeek">
+            <img src="../img/logos/Alura-mobile.svg" alt="Logo-AluraGeek">
+            <img src="../img/logos/Geek-mobile.svg" alt="Logo-AluraGeek">
+        </div>
+        <button class="btn">Login</button>
+        <div>
+            <div class="header-search">
+                <input type="text" class="search" placeholder="¿Que deseas buscar?">
+                <div>
+                    <img src="../img/icons/lupa.svg" alt="Search">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="form-login">
+            <h2 class="form-title">Registro</h2>
+            <form action="" class="form form__inputs">
+                <div class="form__input">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input 
+                        name="nombre"
+                        id="nombre"
+                        class="input"
+                        type="text"
+                        required
+                        data-nombre
+                    />
+                </div>
+                <div class="form__input">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                        name="email"
+                        id="email"
+                        class="input"
+                        type="email"
+                        required
+                        data-email
+                    >
+                </div>
+                <div class="form__input">
+                    <label for="password" class="form-label">Contraseña</label>
+                    <input 
+                    name="password"
+                    id="password"
+                    class="input"
+                    type="password"
+                    required
+                    data-password
+                    >
+                </div>
+                <div class="form__input">
+                    <label for="confirm__password" class="form-label">Confirmar Contraseña</label>
+                    <input 
+                        name="confirm__password"
+                        id="confirm__password"
+                        class="input"
+                        type="password"
+                        required
+                        data-confirm__password
+                    >
+                </div>
+                <button type="submit" class="btn btn-2 form-btn">Registrar</button>
+            </form>
+        </section>
+        <section class="contact">
+            <div class="about-us">
+                <div class="logo">
+                    <img src="../img/logos/logo-desk.svg" alt="Logo-AluraGeek">
+                    <img src="../img/logos/Alura-desk.svg" alt="Logo-AluraGeek">
+                    <img src="../img/logos/Geek-desk.svg" alt="Logo-AluraGeek">
+                </div>
+                <ul>
+                    <li><a href="">Quienes somos</a></li>
+                    <li><a href="">Política de privacidad</a> </li>
+                    <li><a href="">Programa de fidelidad</a></li>
+                    <li><a href="">Nuestras tiendas</a></li>
+                    <li><a href="">Quiero ser franquiciado</a></li>
+                    <li><a href="">Anúncie aquí</a></li>
+                </ul>
+            </div>
+            <div class="form-contact">
+                <h3>Hable con nosotros</h3>
+                <form action="" class="form">
+                    <div class="form-name">
+                        <label for="i-name">Nombre</label>
+                        <input type="text" id="i-name">
+                    </div>
+                    <textarea class="form-message" id="message" placeholder="Escribe tu mensaje"></textarea>
+                    <input type="submit" class="btn btn-2">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="https://github.com/julianbustosmt" target="_blank"><img src="../img/logos/Github.svg"
+                    alt="github julianbustosmt"></a>
+            <a href="https://www.linkedin.com/in/julian-esteban-bustos-rubiano-505102224/" target="_blank"><img
+                    src="../img/logos/Linkedin.svg" alt="Linkedin julianbustosmt"></a>
+        </div>
+        <p>Desarrolado por @Julian Bustos 2022</p>
+    </footer>
+
+</body>
+</html>
